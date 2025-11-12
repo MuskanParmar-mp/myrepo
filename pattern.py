@@ -1,8 +1,8 @@
-'''n=int(input("enter rows:"))
+n=int(input("enter rows:"))
 i=1
 while i<=n:
     print('*'*n)
-    i=i+1'''
+    i=i+1
 
 
 '''n=int(input("enter rows:"))
@@ -104,13 +104,13 @@ for i in range(1,num+1):
     '''
     
     
-num=int(input("enter number of row:"))
+'''num=int(input("enter number of row:"))
 ch='A'
 for i in range(1,num+1):
      for _ in range(1,i+1):
          print(ch,end=' ')
          ch=chr(ord(ch)+1)
-     print()
+     print()'''
 
 
 
