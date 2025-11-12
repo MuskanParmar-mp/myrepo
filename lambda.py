@@ -67,5 +67,5 @@ with open( 'a1.txt', 'r+') as f:
     print(data)
     print(f.tell())
 
-
+ 
 

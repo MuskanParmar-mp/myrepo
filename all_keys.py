@@ -1,3 +1,4 @@
+
 '''import keyword 
 
 all_key = keyword.kwlist
@@ -8,7 +9,7 @@ soft_key = keyword.softkwlist
 print(soft_key)
 print(len(soft_key))
 
-total_key = keyword.kwlist + keyword.softkwlist
+total_key = keyword.kwlist + keyw rd.softkwlist
 print(total_key)
 print(len(total_key))'''
 
@@ -27,4 +28,4 @@ y='language'
 print(type(eval('x+y')))'''
 
 x,y,z= 10,20,30
-print(x,y,z)
+print(x)
