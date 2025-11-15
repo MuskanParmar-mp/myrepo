@@ -27,5 +27,3 @@ print(eval('x+y'))'''
 y='language'
 print(type(eval('x+y')))'''
 
-x,y,z= 10,20,30
-print(x)
