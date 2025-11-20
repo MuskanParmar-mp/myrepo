@@ -77,7 +77,7 @@ print(student.school)'''
 
 
 
-class Book:
+'''class Book:
     price=100
     def __init__(self,title,branch):
         self.t=title
@@ -86,5 +86,12 @@ class Book:
     obj = Book('python book', 'IT')
     print(obj,price)
     obj2=Book('python book' )    
-    print(obj2.price)
+    print(obj2.price)'''
+
+
+class student:
+    x=10
+    def __init__(self,name):
+        self.n=name
+        
        

@@ -9,7 +9,7 @@ print(x>>2)
 
  
 
-x=10
+x=10 
 y=20
 
 print(x==y)
@@ -19,22 +19,16 @@ print(x<=y)
 print(x>=y)
 print(x!=y)
 
-
-
-
 #x=10
 #y='10'
 
 #print(id(x),id(y))
 #print(x is y)
 
-
-
 #x=10
 #y=20
 #z=30
 #print(not(x>y))
-
 
 #x=10.10
 #print(x)
@@ -50,7 +44,6 @@ print(x)
 
 y= float()
 print(y)
-
 
 x='python'
 y="cybrom"

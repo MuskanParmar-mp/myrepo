@@ -1,3 +1,4 @@
+    #higher order function
 '''l=[1,2,3,4,5]
 def square(n):
     return n*n
@@ -120,7 +121,7 @@ res = functools.reduce(sum,l,0)
 print(res)'''
 
 
-#max
+#map
 import functools
 l=[10,5,20,7,25,8,2]
 def max(x,y):
