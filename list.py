@@ -5,6 +5,7 @@ print(len(list))      #5
 print(type(list))     #<class 'list>
 print(id(list))       #1566523547840
 print(list)           #[10, 20, 30, 'python', 'java']
+
 print(max(list))      #error
 print(min(list))      #error
 print (sum(list))     #error
@@ -87,8 +88,8 @@ print(list)
 list.reverse()
 print(list)'''
 
-list.sort(reverse=True)
-print(list)
+#list.sort(reverse=True)
+#print(list)
 
 
 

@@ -92,9 +92,9 @@ s1="language"
 #print(s.count('la'))
 #print('-'.join([s,s1]))       
 #print(''.join((s,s1)))
-print(s.split('s'))
-print(s.split('s',1))
-print()
+#print(s.split('s'))
+#print(s.split('s',1))
+
 
 
 
