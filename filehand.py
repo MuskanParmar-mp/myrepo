@@ -11,14 +11,24 @@
 # print(f.read())
 # f.close()
 
-#      READ         
 
+
+#      READ         
 '''f = open("a1.txt")
 print(f.mode)
 print(f.writable())   #false
 print(f.readable())    #true
 print(f)
 print(f.closed)'''
+
+
+'''f = open('a1.txt','r+')
+print(f.name)                 #a1
+print(f.mode)                 #r+
+print(f.writable())             #True
+print(f.readable())             #True
+print(f.closed)
+print(f.encoding)'''
 
 
 # write  #
@@ -28,13 +38,35 @@ print(f.mode)          #w
 print(f.writable())   #True
 print(f.readable())    #False
 print(f)
-print(f.closed)'''
+print(f.closed)
+
+
+f = open('a1.txt','w+')
+print(f.name)                 # a1.txt
+print(f.mode)                 #w+
+print(f.writable())            #True
+print(f.readable())             #True
+print(f.closed)                  #false
+print(f.encoding)      '''           #cp1252
+
 
 
 # append() 
-f = open("demo.txt", "a")
-f.write("\nI want js")
-print(f)
+'''f = open("demo.txt", "a")
+print(f.name)                  #demo.txt
+f.write("\nI want ms")
+print(f.writable())             #True
+print(f.readable())               #False
+print(f.closed)  '''           
+
+
+f = open('demo.txt','a+')
+print(f.name)                  #demo.txt
+print(f.mode)                   # a+
+print(f.writable())            # True
+print(f.readable())             # True
+print(f.closed)               
+print(f.encoding)                 # cp1252
 
 
 
