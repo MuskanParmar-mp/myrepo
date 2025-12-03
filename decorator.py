@@ -1,4 +1,4 @@
-'''def outer_fun(var):
+def outer_fun(var):
     def inner_fun(x,y):
         x=x+5
         y=y+5
@@ -9,7 +9,7 @@ def add(p,q):
     print(p+q)
 x=int(input("enter a num:"))   
 y=int(input("enter a num:"))
-add(x,y)'''
+add(x,y)
 
 
 '''def outer_fun(var):
@@ -57,14 +57,14 @@ for i in range(15):
 
 
 
-l = list(range(1,10))
-x=iter(l)
-for i in range(15):
-    try:
-          print(next(x))
-    except StopIteration:
-           print("iterator is empty") 
-           break      
+# l = list(range(1,10))
+# x=iter(l)
+# for i in range(15):
+#     try:
+#           print(next(x))
+#     except StopIteration:
+#            print("iterator is empty") 
+#            break      
 
           
      

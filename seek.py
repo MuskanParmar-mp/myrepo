@@ -14,9 +14,9 @@
     print(f.tell())'''
 
 
-with open('n1.txt','rb+') as f:
+'''with open('n1.txt','rb+') as f:
     print(f.tell())
     f.read(10)
     print(f.tell())
     f.seek(-5,1)
-    print(f.tell())
+    print(f.tell())'''

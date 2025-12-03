@@ -1,8 +1,8 @@
-n=int(input("enter rows:"))
+'''n=int(input("enter rows:"))
 i=1
 while i<=n:
     print('*'*n)
-    i=i+1
+    i=i+1'''
 
 
 '''n=int(input("enter rows:"))
@@ -39,7 +39,7 @@ while i>=1:
 #----------------------------------------------------------------------------------
 
 
-'''n=5
+n=5
 for j in range(1,n+1):
     for i in range(1,j+1):
         print(i,end=' ')
@@ -54,21 +54,21 @@ for j in range(1,n+1):
 
 
 
-    
 n=5
 for j in range(1,n+1):
     for i in range(1,j+1):
         print(2*i-1,end=' ')
-    print() '''  
+    print()  
 
 
-'''n=5
+n=5
 x=1
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(x,end=' ')
         x=x+1
-    print()'''
+    print()
+    
 
     
 
@@ -85,34 +85,34 @@ for i in range(1,n+1):
 # alfabet pettern 
 
 
-'''num=int(input("enter number of row:"))
+num=int(input("enter number of row:"))
 for i in range(1,num+1):
      ch='A'
      for _ in range(1,i+1):
          print(ch,end=' ')
          ch=chr(ord(ch)+1)
-     print()  '''
+     print()  
 
 
 
-#  one letter eft 
-'''num=int(input("enter number of row:"))
+#  one letter left 
+num=int(input("enter number of row:"))
 for i in range(1,num+1):
      ch='A'
      for _ in range(1,i+1):
          print(ch,end=' ')
          ch=chr(ord(ch)+2)
      print()   
-    '''
     
     
-'''num=int(input("enter number of row:"))
+    
+num=int(input("enter number of row:"))
 ch='A'
 for i in range(1,num+1):
      for _ in range(1,i+1):
          print(ch,end=' ')
          ch=chr(ord(ch)+1)
-     print()'''
+     print()
 
 
 

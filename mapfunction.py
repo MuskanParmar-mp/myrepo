@@ -122,7 +122,7 @@ print(res)'''
 
 
 #map
-import functools
+'''import functools
 l=[10,5,20,7,25,8,2]
 def max(x,y):
     if x>y:
@@ -131,5 +131,32 @@ def max(x,y):
         return y
 
 res = functools.reduce(max,l)
-print(res)  
+print(res)  '''
+
+
+def square(n):
+    return n*n
+
+num=[1,2,3,4,5]
+print(list(map(square,num)))
+
+
+
+l=[20,47,91,94,71,54]
+def division(x):
+    if x>=55:
+        return x 
+
+print(list(filter(division,l))) 
+
+
+
+import functools
+list=[10,4,8,21]
+def max(x,y):
+    if x>y:
+        return x
+    else:
+        return y
     
+print(functools.reduce(max,list))    
