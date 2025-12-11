@@ -47,12 +47,12 @@ while i<=n:
      print(i,end='+')
     else:
        print(i)
-    i=i+2 
+    i=i+2 '''
 
 
     #
 
-n = int(input("Enter how many even number:"))
+'''n = int(input("Enter how many even number:"))
 i=2
 sum=0
 while i<=n:
@@ -79,7 +79,7 @@ while(n>0):
 if n == n[:: -1]:
     print("palindrome")
 else:
-    print("not")    '''
+    print("not")   '''
 
 
 
@@ -93,7 +93,7 @@ else:
 '''n = int(input("Enter any number:"))
 for  i in range(1, n+1):
     if i<n:
-        print(i,end=',')
+        print(i,end=',') 
     else:
         print(i)    '''
 
@@ -149,7 +149,7 @@ while i<=n:
 
 #-----------------------------------------------------------------------------------
 # for loop
-#----------------------------------------------------------------------------------
+#---------------------------------------------pa-------------------------------------
 
 '''n=5
 for i in range(1,6):
