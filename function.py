@@ -161,13 +161,12 @@ fun(x=10,z=30,x=60)  '''
 
 
 ### 5.
-
-'''def fun(x=0,y=0,z=0):
+def fun(x=0,y=0,z=0):
     print(x)
     print(y)
     print(z)
 
-fun(y=20,z=30,x=50)  '''
+fun(y=20,z=30,x=50) 
 
 
 
