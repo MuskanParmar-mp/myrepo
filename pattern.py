@@ -102,7 +102,7 @@ for i in range(1,num+1):
      for _ in range(1,i+1):
          print(ch,end=' ')
          ch=chr(ord(ch)+2)
-     print()   
+     print()     
     
     
     
